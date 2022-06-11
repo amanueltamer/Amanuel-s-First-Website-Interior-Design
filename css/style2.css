@@ -1,0 +1,128 @@
+body{
+    background-color: #EEE6D9;
+    color: #111926;
+    font-family: Bodoni;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #111926;
+    color: #EEE6D9;
+}
+
+#navbar{
+    background-color: #EEE6D9;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #111926;
+    font-family: Bodoni;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('/images/JapaneseInteriorDesign5.jpeg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: solid 10px;
+}
+
+#showcase h1{
+    color: #111926;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 40px 0px;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    background: #111926;
+    color: #111926;
+    padding: 50px;
+    background-image: url('/images/JapaneseInteriorDesign7.jpeg');
+    background-size: cover;
+    min-height: 550px;
+    border: solid 10px;
+    border-radius: 25px;
+}
+
+#sidebar2{
+    float: right;
+    width: 30%;
+    background: #111926;
+    color: #111926;
+    padding: 50px;
+    background-image: url('/images/JapaneseInteriorDesign6.jpeg');
+    background-size: cover;
+    min-height: 550px;
+    border: solid 10px;
+    border-radius: 25px;
+}
+/* #sidebar3{
+    float: right;
+    width: 30%;
+    background: #111926;
+    color: #111926;
+    padding: 10px;
+    background-image: url('/images/JapaneseInteriorDesign6.jpeg');
+    background-size: cover;
+    min-height: 550px;
+    border: solid 10px;
+} */
+/*
+#sidebar4{
+    float: right;
+    width: 30%;
+    background: #111926;
+    color: #111926;
+    padding: 10px;
+    background-image: url('/images/JapaneseInteriorDesign6.jpeg');
+    background-size: cover;
+    min-height: 550px;
+    border: solid 10px;
+}*/
+
+#main-footer{
+    background: #111926;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 101px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+}
