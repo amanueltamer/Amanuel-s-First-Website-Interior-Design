@@ -40,7 +40,7 @@ body{
 }
 
 #showcase{
-    background-image: url('/images/JapaneseInteriorDesign1.jpeg');
+    background-image: url('../images/JapaneseInteriorDesign1.JPG');
     background-size: cover;
     background-position: center center;
     min-height: 300px;
@@ -69,7 +69,7 @@ body{
     background: #111926;
     color: #111926;
     padding: 50px;
-    background-image: url('/images/JapaneseInteriorDesign8.JPG');
+    background-image: url('../images/JapaneseInteriorDesign8.JPG');
     background-size: cover;
     min-height: 550px;
     border: solid 10px;
@@ -82,7 +82,7 @@ body{
     background: #111926;
     color: #111926;
     padding: 50px;
-    background-image: url('/images/JapaneseInteriorDesign9.JPG');
+    background-image: url('../images/JapaneseInteriorDesign9.JPG');
     background-size: cover;
     min-height: 550px;
     border: solid 10px;
